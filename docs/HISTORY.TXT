@@ -1,0 +1,83 @@
+===============================================================================
+-------------------------------------------------------------------------------
+	       
+	    RemindMe -- An OS/2 Calendar and Scheduling Application
+       Written By Eric A. Wolf - Copyright (C) 1995 - All Rights Reserved
+
+-------------------------------------------------------------------------------
+===============================================================================
+
+
+== Revision History ================
+
+Version 1.00 - initial release
+	     - Since this is the initial release, I encourage EVERYONE to
+	       send me their questions, comments and suggestions.  I want to
+	       continue to develop this application but am in need of your
+	       input.  Please send your comments to my email address:
+	       eaw@cs.purdue.edu
+Version 1.01 - fix for to-do list.  When the list got too large, memory
+	       corruption would occur and the application would crash
+	     - "Ask before delete event" option added
+	     - the day of the week an event is scheduled for is now displayed
+	       when editing a calendar event (now you can reschedule an event
+	       and know what date it will be on)
+	     - max length of reminder title changed from 80 to 256 characters
+	       (Note that this is through dynamic allocation so no extra 
+	       memory is really used if the event title is not totally filled)
+	     - max number of events per calendar changed from ~250 to 300
+	     - button added to "event an edit" dialog to launch the OS/2 sound
+	       recorder.  This was provided for those users who want to record
+	       their own reminders as WAV files.  Once recorded, simply 
+	       specify the resulting WAV file to be played at ReminderTime.
+	       have them played later.
+	     - misc. optimizations and speed-ups
+Version 1.02 - Changed "Exit..." menu entry to "Exit" to confirm with style 
+               guidelines for applications with menus
+             - In versions 1.00 and 1.01, under certain circumstances, if you
+               edit events, the reminder option would turn off and never
+               turn itself back on.  While closing the application and 
+               restarting it would fix the problem, that problem has been 
+               fixed in this release
+             - RemindMe now watches for midnight, and when hit, advances the
+               day pointer and redraws the calendar automatically (for those
+               who don't turn their computers off at night!)
+             - the event title is now highlighted when entering the modify
+               event dialog.  This allows rapid changing of the text title
+               when creating a new event
+             - revised dialog box for new "90's look" ;)
+             - added option so each item in the todo list can be prefixed
+               by the date, time or date and time of event
+             - fixed calendar color options dialog so that when choosing a new
+               color, the dialog title actually fits the color you are choosing
+             - added an option to allow you to display the days from the
+               previous month and the following month which fill the displayed
+               calendar.  Using this, there will be no blank day spots.  You 
+               will be able to see those days (from either the preceeding or 
+               following month).  Double click editing and quick reminder
+               still work on these days.  Events on these days are not
+               specially highlighted, though.  You need to move to that month 
+               to see highlighting.
+             - added corresponding option to enable/disable the display of
+               previous/following month days on calendar
+             - added corresponding option to change the colors for the display
+               of previous/following month days on calendar
+             - added optional clock to upper left hand corner of calendar 
+               window
+             - added way for an event to be rescheduled 1 to 180 days later
+               after it is marked as done.  Using this, you can have events
+               reschedule themselves every day, every other day, every week, 
+               every 6 weeks, etc.  Any value 1 to 180 days can be used.
+               Setting to 0 disables this feature (and is the default).
+             - User set to do list colors are now correctly saved and restored
+             - To Do list now added to task list (window jump list)
+             - added keyboard accelerators for saving the current calendar (F2)
+               and for exiting the application (Alt+F4)
+             - Enlarged previous, current and next month control buttons
+             - "Jump to date" (F7) menu option added to quickly jump to a date
+             - added an ASCII print subsystem which prints monthly calendar and 
+               the todo list for today, the week or the month (or none at all).
+
+
+
+

@@ -1,0 +1,24 @@
+===============================================================================
+-------------------------------------------------------------------------------
+               
+            RemindMe -- An OS/2 Calendar and Scheduling Application
+      Written By Eric A. Wolf - Copyright (C) 1995 - All Rights Reserved
+
+ This program is SHAREWARE!  Please uncompress this program ONLY if you will
+ register the program if you find it useful, practical, etc.  Registration is
+   only $10 and details can be found in the REMINDME.TXT file.  Thank you !
+
+-------------------------------------------------------------------------------
+===============================================================================
+This version of RemindMe replaces a previous version of the same application.
+Bug fixes as well as some major enhancements were added to this version.
+If you already use RemindMe, please refer to the documentation (under 
+Installation) to find information on using these files to update to the 
+newer RemindMe.  And if you already use the software, please 
+consider registering your copy if you have not already done so (again, see 
+the documentation for details).
+
+And, especially, my deepest thanks to all those who *have* registered
+RemindMe!  It is only with your support that I can continue to develop and
+maintain RemindMe!  Thank you!
+

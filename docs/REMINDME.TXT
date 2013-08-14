@@ -1,0 +1,590 @@
+===============================================================================
+-------------------------------------------------------------------------------
+
+	    RemindMe -- An OS/2 Calendar and Scheduling Application
+       Written By Eric A. Wolf - Copyright (C) 1995 - All Rights Reserved
+
+ This program is SHAREWARE!  Please read the registration information at the
+  end of this document for details on how to register your copy of RemindMe
+
+-------------------------------------------------------------------------------
+===============================================================================
+
+
+== Introduction ============
+
+RemindMe is a full-featured and very flexible calendar and scheduling
+application for OS/2 2.x and Warp.  You can view the months of the year and
+any scheduled events quickly and easily.  Simply gliding the cursor over a day
+on the calendar will present the user with a synopsis of all the events
+scheduled for that day.  Editing any of the events for a given date only
+involves a double click.
+
+In additional to its ease of use and flexibility, RemindMe also provides an
+intelligent To-Do list.  The To-Do list looks ahead and reminds you of upcoming
+items you've scheduled.  You can be reminded of upcoming events well before
+they are actually due (and without having to sift through the many days
+and events of a calendar).  These items are presented in a second, strictly
+optional window the user can place and size totally independent of the
+calendar.  Also included is an event reminder that provides an additional
+(optional) visual and/or audio reminder as events come closer to their
+scheduled due date.
+
+The program is easy to use and very flexible.  Both fonts and colors can be
+set to a user's preference.  Preview areas show you what your changes will
+look like before they are made.  The program can be adjusted to any size or
+simply configued to sit on your desktop and remain small and out of the way.
+All settings and preferences are also remembered and restored whenever the 
+program is launched.  This program is also much smaller and faster than IBM's 
+calendar/PIM application.
+
+
+-------------------------------------------------------------------------------
+
+== Installation ============
+
+If you are installing RemindMe for the first time, please continue to the next
+paragraph.  If you are simply upgrading RemindMe, make copies of all your old
+calendar initialization files.  Then, delete ALL the files associated with the
+older version of RemindMe, unzip this newer version and copy all your previous
+calendar files back into that directory.  Your older calendar files are
+supported by all newer versions of RemindMe.  Once you have upgraded RemindMe,
+you may skip to the "Using RemindMe" section below.
+
+Installing RemindMe is simple.  Read the README file and once you agree to
+register the product if you continue to use it, unzip the second zipfile,
+REMINDME.ZIP by typing:
+
+  pkunzip -d REMINDME.ZIP  (if you are using PKUNZIP)
+
+  -or-
+
+  unzip REMINDME.ZIP       (if you are using UNZIP)
+
+Once unzipped, simply go to an OS/2 command prompt and type INSTALL from the
+same directory where you unzipped the files.  That will invoke a REXX script
+that will create a RemindMe program object/icon on the desktop for you to
+use to start the application.  In addition to the American English version
+of the program, an international English version of RemindMe is also included 
+to provide support for 24 hour time and international date format.
+
+To immediately start RemindMe, double click the program object on the
+desktop.  To make RemindMe start every time you boot OS/2, drag the
+object (or a copy/shadow thereof) to the startup folder that is found in
+the OS/2 system folder.
+
+(NOTE:  Rmember, you should proceed to unzip the second zipfile ONLY if you 
+	agree to the registration requirements presented both in the README 
+	file and in the registration text at the end of this document.)
+
+
+-------------------------------------------------------------------------------
+
+== Using RemindMe ==============
+
+Start RemindMe by double clicking its program icon.  If you are using RemindMe
+for the first time, the application will alert you that it cannot find a
+default calendar file.  This is normal operation and you should click OK to
+continue.  This is included as a safety measure in the event that your default
+file cannot be loaded in the future.
+
+Upon starting RemindMe you will see two windows, the calendar window and the
+to-do list window.
+
+
+== The Calendar ============
+
+In one of the windows you should see a calendar.  By default, it comes up
+with the current date.  Note that calendar is scaled to the size of the 
+window it is in.  So, resizing the window will also automatically resize 
+the calendar in it.
+
+Notice that moving the mouse cursor over any date on the calendar shows you 
+the events scheduled for that day in the lower right portion of the calendar.  
+This feature is called the "Quick Reminder".  It will be discussed in more 
+detail later.  Also notice that double clicking any date on the calendar 
+brings up the list of scheduled events (if any) for that particular day.  
+From that window, you can choose to add, delete or modify events for that 
+day.
+
+
+Changing the Calendar's Date
+----------------------------
+ - To go back one month - Using the mouse, click the left arrow (which is to 
+   the right of the current month name and year displayed at the top of the
+   calendar).  This moves you backward one month.  
+   
+ - To go forward one month - Click the right arrow (which is to the right of 
+   the current month name and year displayed at the top of the calendar).  
+   This moves you forward one month.  
+   
+ - To return to today's date - Click the center diamond to return to the
+   current month and year.
+
+ - You may also select the Jump To Date... menu option to manually enter
+   a date to jump to.
+
+See "Customizing the Application" for details on how you can customize
+various settings of the calendar to better fit your life and work habit.
+
+
+-------------------------------------------------------------------------------
+
+== Events on The Calendar ======================
+
+The calendar, itself, isn't much useful unless you can start entering your
+own dates on it.  This section describes that process in detail.
+
+Adding a new event
+------------------
+There are two ways to add a new event.  The first method is through the 
+to-do list.  If you double click below any existing items in the to-do list, 
+a new item will be created.  The second, alternative method, requires you to 
+double click the day on the calendar you wish the event to occur and select 
+new event from the popup window.  See "Editing an event" below for complete
+information on how to fill in this new event.
+
+Deleting an existing event
+--------------------------
+To delete an event, first double click the day on the calendar this event
+resides on.  Next, select the event from the list box by single clicking on
+it.  Now, select the delete event button.  Confirm your request to delete
+the item and it will be permanently removed from your calendar.
+
+Modifying an existing event
+---------------------------
+There are two ways to modify an existing event.  The first method is through 
+the to-do list.  If you double click any to-do list item, it will immediately
+be presented for editing.  The second method requires you to double click 
+over the day where the event occurs.  Now, either select the event from the 
+list with a double click or select the item you wish to modify with a single 
+click and then press the modify event button.  Please see the "Editing an 
+event" information below for instructions on how to fill in a new event.
+
+Editing an event
+----------------
+When you edit a calendar event, either when create a new event or edit an
+existing event, there are a number of things you can set.
+
+ - Item Name:  Enter an appropriate title for your event here.  Names can be
+   up to 256 characters in length.
+
+ - Mark Item as completed:  Check this box if the item has already been 
+   done.  This helps the to-do list decide if it needs to put the item on
+   your to-do list or not.  When you are creating a new event, you probably
+   don't want to check this box!
+ 
+ - Item Date:  Click the up or down arrows of the spin buttons to set the
+   date and time of the event.  The spin controls automatically wrap around
+   when their limits are exceeded.  The date and time correspond to the
+   date and time this event is supposed to occur.  For events that have
+   no clock time (but only a date) associated with them, like a birthday,
+   you can leave the clock at 12:00am (or 00:00 hours on a 24-hour clock).
+
+ - Repitition Options:  Here you have two options you can perform.  Usually,
+   the events you schedule are for a unique date and time.  However, if you
+   wish, you can schedule events to occur every month or every year (or even
+   every month of every year).  Checking these boxes toggle when events are 
+   scheduled.  If neither of these boxes are checked, the event will occur 
+   only for the specific date and time given.
+
+ - To-Do List Options:  If you wish to be reminded of this event on your
+   to-do list, check the "show on To-do list" box.  If this box is checked, 
+   you should also set the number of days in advance you want this item to 
+   appear on your to-do list.  Set this number by using the up and down 
+   arrows of the spin control.  If you have a birthday on your calendar and 
+   you want to be reminded 2 weeks ahead of time so you can go buy a gift, 
+   set this value to 14 (14 days = 2 weeks).
+
+ - Reminder Options:  In addition to displaying an event on the to-do list,
+   you can also have an additional reminder window pop-up at a selected time
+   prior to the event.  If you wish to have an additional reminder, check the
+   "Event Reminder" box.
+
+   Next, select if you wish to be notified minutes or days before the event 
+   occurs.  Once you select one of the two options, select the number of 
+   minutes (or days) in advance you want the reminder.  The number of minutes
+   before is computed by using the time of the event and subtracting the 
+   number of minutes you specify.  It is similarly calculated if you wish
+   to be notified a number of days prior to an event.
+
+   You have three options for the types of reminder you can have.  You can
+   have an audio only reminder.  This type of reminder will play a user
+   selectable sound as a reminder for an event.  Or, you can have a reminder
+   window pop-up (with no sound) prior to an event.  Lastly, you can have
+   both a reminder window and an associated sound played for an event
+   reminder.  You can select which type of reminder you want by clicking
+   one of the three reminder-type radio buttons.
+   
+ - Reminder Sound Button:  Every new calendar event is, by default, assigned
+   to play DEFAULT.WAV as its sound file.  While you can copy a new sound
+   file over the DEFAULT.WAV file, you can also specify a new sound file by
+   pressing this button.  You will then be presented with a file dialog.
+   Use this dialog to find the sound file you wish to play and click OK when
+   you have selected it.  The sound file you select will be the one that
+   plays when an event reminder appears.
+
+ - Launch OS/2 Sound Recorder Button:  If your sound card allows you to
+   record and you have an appropriate microphone attached to it, this
+   button is an easy link to IBM's sound recorder application.  You can
+   use the record a reminder to yourself and then specify the recorded
+   WAV file by specifying it using the Reminder Sound Button.  Now,
+   when your reminder comes due, your audio reminder will be played.
+
+When you are done editing an event, the calendar and the to-do list will 
+automatically be updated to reflect your changes.
+
+
+-------------------------------------------------------------------------------
+
+== The To-Do List ==============
+
+The To-Do list is managed by RemindMe.  It takes the current date and displays
+all upcoming (or past due) events that you have appropriately marked on the
+to-do list.  If you have marked an item to appear on the to-do list only one
+day before it occurs, then RemindMe will only put that item on the to-do list
+at that time.  Items past due (items due before the current date but not
+marked as done) will also be displayed.
+
+Items on the to-do list can be modified, as well.  To edit an item on the
+to-do list, simply double click that item.  The data for that item will then
+be displayed and readied for modification.  Data from the to-do list can
+be moved to the global clipboard by selecting it with the first mouse button
+and using the keyboard shortcuts described in your OS/2 manual for various
+cut and copy options.  Note that data cannot be pasted into the to-do list 
+(you will need to add a new event on the calendar in order to add an item
+to your to-do list).
+
+The To-do list is a separate (and independent) window from the calendar.
+It can be sized and placed independent of the calendar.  See "Customizing the 
+Application" for details on how you can customize various settings of the 
+to-do list to better fit your life and work habit.
+
+
+-------------------------------------------------------------------------------
+
+== Reminders =========
+
+As described in 'Reminder Options:' under the "Editing Events" heading
+above, reminders are used to provide an additional reminder for upcoming
+events.  They can be audible reminders, visual reminders, or reminders
+that contain both an audio and visual component.  When a reminder "goes off", 
+one of three things can happen:
+
+(1)  (audible option) A user specified sound will play and then that event 
+		      will be mark as completed automatically
+(2)  (visual option) A window will pop-up (over whatever you are currently 
+		     working on) reminding you of the event
+(3)  (both option) Both a sound will play and a window will pop-up to remind 
+		   you of the event
+
+If you choose a window display (either visual or both options), then you
+will have several choices.  You can immediately mark the item as done and
+be done with it.  Or, you can choose to revise the event (which means you
+can reschedule it, turn off the reminder part of it, etc).  You can choose
+to erase the event, as well.  (Exercise caution!!  Once pressed, the item
+will immediately (and irreversibly) by erased!!)
+
+Lastly, you can choose to defer the reminder.  If you specified the reminder
+appear minutes before the event, you can defer the reminder by a definable
+number of minutes.  If the reminder, appears days before the event, you can
+defer the reminder to appear the next day (tomorrow).
+
+The number of minutes a reminder snoozes can be set by referring to the
+"Customizing the Application" section below.
+
+
+-------------------------------------------------------------------------------
+
+== Customizing The Application ===========================
+
+This section details how one may customize RemindMe by selecting different
+fonts, colors and options for the application.  Any and all customizations 
+you make will be recorded when you save your calendar file and will be
+restored next time you use that calendar.
+
+Calendar Options
+----------------
+There are a number of different options you can customize for the calendar.
+The best way to see what effect each of these has is to simply toggle their
+status and notice the change in the preview area.  The available options are:
+
+ - There are 3 different choices in "Date Placement".  Your selection here
+   determines the orientation of the date in each day area.  if you are
+   confused, clicking different choices here will quickly reveal its 
+   function.
+ 
+ - "Draw 3D Calendar", when enabled, draws the calendar in a 3D fashion.
+   It uses all 3 calendar colors (light, medium and dark) to give the
+   calendar a 3D look.  When this feature is not enabled, only the 
+   calendar's dark color is used in drawing.
+ 
+ - Checking "Draw Border Around Day #" will draw a small box around the 
+   day number for each day of the month.  Note that this feature is not
+   enabled when the date is centered in each day area.
+
+ - Enabling "Draw lines between days" will draw a box around each different
+   day of the month.  If not enabled, no box will be drawn.
+
+ - "Highlight current date", when enabled, will draw a thick square around
+   the current date on the calendar.  This is often helpful to quickly
+   remind you what the date is.
+
+ - Checking "Abbreviate month name" will display the abbreviated month name
+   when drawing the calendar versus using the full month name when this
+   option is not checked.
+ 
+ - Checking "Label days of the week" will cause the days of the week to be
+   printed on your calendar.
+
+ - If "Abbreviate days of the week" is enabled, the days of the week (when
+   displayed), will be abbreviated.  If not, their full text will be used
+   to describe them.  This is useful if you want to display the days of the
+   week but you like a small-sized calendar.
+
+ - Enabling "Use quick reminder" will enable the quick reminder feature.
+   That features provides you a quick summary of the days events by simply
+   passing mouse cursor over a given day.  Not checking this item disables
+   this feature.
+ 
+ - Checking "Remind for completed events" will remind of you events in your 
+   quick reminder summary even if they have been marked as completed.  This 
+   option is only valid if "Use quick reminder" is enabled.  If once you
+   mark an item as done you longer want to see it on your quick reminder,
+   simply uncheck this option.
+
+To-Do List Options
+------------------
+ - The only option besides colors, which are described below in "Changing
+   Colors", is the show to-do list option.  If you would prefer NOT to use
+   the to-do list, clear the checkmark in this field.
+
+Reminder Options
+----------------
+ - "Ask before delete event", when enabled, will prompt the user before
+   deleting any events from the calendar.  Clearing this item will cause
+   items that the user wants deleted to be IMMEDIATELY removed.
+
+ - "The number of minutes a reminder should snooze" refers to the exact
+   number of minutes an event reminder should hide itself until it 
+   re-appears.  This is invoked whenever the user chooses to defer a
+   reminder (by minutes)
+
+ - "The number of minutes between playing reminder sound due to inactivity"
+   refers to the number.  When an event reminder pops up (and if it has its
+   audio enabled), it will play the user specified sound file.  After the
+   number of minutes specified here, if the user does not interact with the
+   popped up event window, the sound will be repeated.  Enter 0 to prevent 
+   the sound from being played more than once.
+
+ - "Default number of days in advance to display a to-do list item on the
+   to-do list" is the default number given to all newly created events.
+   This value specifies the number of days prior to the scheduled date of
+   an event should it be displayed on your to-do list.  Note that this is
+   only a default value and can still be changed when an item is created.
+
+Changing Colors
+---------------
+ - Both the colors for the calendar and the to-do list can be altered to
+   better fit your tastes.  Under the Options menu, select either the
+   to-do list or calendar option (depending on which colors you want to
+   change).  Then, click the Change Colors button.
+
+   Calendar Colors - there are a number of colors to modify for the calendar.
+   You will be presented with a window with a host of pushbuttons and a 
+   small, sample calendar that will display any of the changes you make
+   (and before they are made to the real calendar).  To modify a color, 
+   simply select the corresponding push button.  Note that the changes
+   you make will appear in the calendar preview area to show what effect
+   they will have when applied to the real calendar.
+
+   To-Do List Colors - the to-do list only has two colors.  A color for the
+   background of the to-do list and a color for the text itself in the list.
+   Both of these colors can be modified.
+
+Changing Fonts
+--------------
+ - You may change the font of either the to-do list or the calendar by 
+   opening the font palette in the system setup (found in the OS/2
+   system folder) and dragging and dropping a new font over either of 
+   the two program windows.  This change will be remembered the next time 
+   you start the application.  For more information on using drag and drop
+   fonts, please see your OS/2 documentation.
+
+Hiding Window Controls
+----------------------
+ - You may hide the window controls (titlebar, menubar, minimize and maximize 
+   and the system menu button) by double clicking with the 2nd mouse button
+   over either the to-do list or the calendar window.  This helps your
+   windows occupy less space.  You may double click (again using the 2nd 
+   mouse button) to restore the controls.  
+   
+ - When the controls are hidden, you may still move a window by holding
+   the 2nd mouse button and moving the cursor while over the cursor is over
+   the window.  The window is placed when the 2nd mouse button is released.
+
+ - When the controls are hidden, you may still access the menus of the
+   application if you have a 3 button mouse and a mouse driver which
+   supports your 3 buttons.  Click the 3rd button on your 3 button mouse 
+   and a pop-up menu with all the options found in the normal application 
+   menubar will appear.
+
+
+-------------------------------------------------------------------------------
+
+== Advanced Tips and Techniques ============================
+
+ - It is often useful to size the calendar window down and keep it on your
+   desktop for constant reference.  When down-sizing the calendar window, it
+   is helpful to place the date in the center of the day area and toggling
+   OFF any lines that may be drawn.  You should also toggle OFF the quick
+   reminder feature since the calendar will probably be too small to see
+   any event summaries.  All of these settings can be altered by selecting 
+   the Options|Calendar... item on the menubar.
+
+   It is also convenient to drag the program object (or a shadow thereof) to 
+   the OS/2 startup folder so that RemindMe is started whenever your system 
+   is booted.
+
+ - You may supply a single command line argument to RemindMe when starting it.
+   The single argument should be the complete pathname of a calendar file you
+   wish to open at run-time.  If no argument is specified, the default calendar
+   file (DEFAULT.CAL), will be loaded when the application is launched.
+
+ - The DEFAULT.WAV file is the default sound file given to all new events.
+   It is found in the same directory as the REMINDME.EXE executable.  You
+   may find it useful to copy your favorite .WAV file over this file.  That
+   way, you won't have to override the default sound file each time you
+   make a new event.
+
+ - Everytime you load a calendar file, a copy of it is stored in a file 
+   called BACKUP.CAL.  That way, in the event something happens to your
+   system while running RemindMe, you still have a copy of your old
+   calendar file.
+ 
+
+-------------------------------------------------------------------------------
+
+== Revision History ========================
+
+(The revision history from RemindMe's inception to its current release is
+ contained in the HISTORY.TXT file that should have come with this archive
+ file...  Please contact the system administrator from the site in which you
+ obtained this archive if you did not receive it or any other RemindMe files!)
+
+
+-------------------------------------------------------------------------------
+
+== Source Code ===========
+
+This program comes complete with the entire source code that generated it.
+Please note the following restriction:
+
+   RemindMe's source code is to be modified by the author alone.  The source
+   code is provided as a learning tool ONLY!  No modifications may be made
+   to it to reproduce a same or similar product.  The copyright remains that
+   solely of the author and the program is protected under both United States 
+   and International Copyright Laws.
+
+The complete source code for this program can be found in the SOURCE
+directory that was created when you uncompressed this program.  It was
+developed on Borland's C++ for OS/2.  A project file (REMINDME.PRJ) has been
+provided to facilitate your working with these files.  Each source file
+is documented and you should review the code with some good OS/2 references
+in hand (PM references, API reference, etc.)  
+
+
+-------------------------------------------------------------------------------
+
+== Distribution of RemindMe ========================
+
+You are free to distribute RemindMe to whomever and however you wish as long
+as the following conditions are satisified:
+
+  -  RemindMe should ALWAYS be distributed in its entirety.  This includes
+     all documentation, executables, and source files.  Under no circumstances
+     should RemindMe be distributed without all of its original files.
+     Distribution of RemindMe (in any way possible!) is strongly encouraged
+     both by individuals and software houses!
+
+  -  RemindMe's source code is to be modified by the author alone.  The source
+     code is provided as a learning tool ONLY!  No modifications may be made
+     to it to produce a same or similar product.  The copyright remains that
+     of solely the author and the program is protected under both United States 
+     and International Copyright Laws.
+
+  -  If you use RemindMe, you MUST register it (directions for doing so
+     follow this section of the text).  "Use" includes both the actual
+     use of the RemindMe application program -and/or- using the source code 
+     as a reference for your own works.  If you use the source as a reference, 
+     please register your copy ($10.00 is cheaper than any book you can buy
+     on OS/2 programming and what is going to teach you as much??)  
+     
+  -  Government and site licenses can be granted at a discounted rate.  Please
+     inquire for more details.
+
+  -  Remember, if you like the program (even if you don't care much for the 
+     source code) you should still register!!
+
+
+-------------------------------------------------------------------------------
+
+== Registration ============
+
+If you like RemindMe, or perhaps, you enjoy having the complete source code
+for an OS/2 PM program to aid you in writing your own programs, I ask you to
+register your copy of the program.  The registration cost is only $10.00 and
+it will ONLY be with your support that I continue to develop for OS/2, and
+especially, provide the complete source code for any of my works.
+
+You can register your copy of RemindMe with me for only $10.00.  Please send 
+your registration payment as a check or money order (US funds only) to:
+
+If you are MAILING your registration BEFORE April 20, 1995, please send to:
+			Eric A. Wolf
+			498 Wiley Hall NW
+			West Lafayette, Indiana  47906-4223
+
+Or, if you are MAILING your registration ON or AFTER April 20, 1995, send to:
+			Eric A. Wolf
+			1630 North Johnson Street
+			South Bend, Indiana  46628-2936
+
+   ------------------------------------------------------------------------
+   Overseas registrations may be sent by simply including $10 US currency 
+   with your registration form.  The costs of getting an international
+   money order can be prohibitively high.  Often times, the cost of getting 
+   the international money order is more than the registration fee.
+   ------------------------------------------------------------------------
+
+I want to encourage everyone to start writing applications for OS/2, no
+matter how simple or complex.  That is why I am providing the source code 
+with this program.  If you've never developed for OS/2 before, now is your
+time to start and you have this to look off of to get you going.
+
+Please note, however, I provide the source code as-is and as a learning tool
+for aspiring programmers.  Please do NOT modify the source code and re-release 
+an exact or similar product.  The source is provided solely as a learning 
+device.  The $10.00 registration fee is cheaper than any OS/2 programming
+book and what I provide is a complete, functional OS/2 PM application and 
+ALL component source files that comprise it (how many books do that?)
+
+If the response is good enough, and only if it is good enough, I will continue 
+to develop products and ship the source code along with them.
+
+I will answer no questions about the source code of the program from an
+individual until a registration payment has been received.  Once registered,
+source questions can be directed to me via electronic mail only:
+
+		 internet:     eaw@cs.purdue.edu
+
+If you have general comments or questions about the program, you may also
+send the electronic address above.  Thanks!
+
+  --------------------------------------------------------------------------
+  Remember if you like RemindMe and use  it or if you use or plan to use the
+    source code as a reference  for your own works, please register today!
+  --------------------------------------------------------------------------
+  My thanks to those of you who have registered!  I appreciate your support!
+
+

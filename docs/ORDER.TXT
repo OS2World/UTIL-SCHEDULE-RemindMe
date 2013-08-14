@@ -1,0 +1,55 @@
+============================================================================                  
+----------------------------------------------------------------------------
+
+                      RemindMe 1.02 - Registration Form
+
+----------------------------------------------------------------------------
+============================================================================
+ (When you are registering RemindMe, please include both this form and your
+ check or money order to complete the registration process.  Please include
+ only this  form -- completely filled out by you and send it to the address
+ listed  at the end of  the REMINDME.TXT  documentation file.   Thank you!)
+
+
+Yes, I would like to register RemindMe and by doing so voice  my support for
+OS/2 software development and the Shareware method of software distribution.
+With my  registration, I understand that  I am entitled to the  full use  of 
+RemindMe and I also  understand that I may  not  release  a similar  or like
+product  to RemindMe but  that I  may use the source code in  aiding my  own
+programming endeavours.
+
+
+Name: ______________________________________________________________________
+
+Internet/Compuserve/
+or Delphi e-mail address: __________________________________________________
+(providers will receive a response upon receipt of their registration and be
+added to the official RemindMe mailing list- informing them of new versions)
+
+
+Street/PO Box: _____________________________________________________________
+
+
+City: ______________________________________________________________________
+
+
+State: ____________________________________ Zip: ___________________________
+
+
+Telephone: (___________)________________________________________
+
+
+
+                   _________  # of copies of RemindMe to register
+
+                              X $10.00 per copy registration fee
+
+                  $_________  Total Amount Enclosed (US funds and
+                              check or money orders only, please!)
+
+
+        == Thank you for your supporting RemindMe and Shareware! ==
+
+  (Registering RemindMe registers you for this and ALL future versions of
+    the RemindMe product.  Please support Shareware and register today!)
+

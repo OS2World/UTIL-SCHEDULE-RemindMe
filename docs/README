@@ -1,0 +1,24 @@
+===============================================================================
+-------------------------------------------------------------------------------
+               
+            RemindMe -- An OS/2 Calendar and Scheduling Application
+      Written By Eric A. Wolf - Copyright (C) 1995 - All Rights Reserved
+
+ This program is SHAREWARE!  Please uncompress this program ONLY if you will
+ register the program if you find it useful, practical, etc.  Registration is
+   only $10 and details can be found in the REMINDME.TXT file.  Thank you !
+
+-------------------------------------------------------------------------------
+===============================================================================
+      (Please note that this program requires that both REXX and MMPM/2 
+           be installed on your system in order to play .WAV sounds)
+      
+      [For most systems - these were installed when you installed OS/2]
+
+      If you are using PKUNZIP to uncompress this program, do so by typing:
+
+                              pkunzip -d REMINDME.ZIP
+
+           This program was compressed with a directory structure that 
+              should be maintained when decompressing.  Thank you !
+
